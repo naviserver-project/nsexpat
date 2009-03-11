@@ -1,0 +1,29 @@
+2007-04-24  Vlad Seryakov  <seryakov@users.sf.net>
+
+	* updated with the latest tclexpat from tDOM project, added documentation
+
+2003-03-13  Scott S. Goodwin  <scott@scottg.net>
+
+	* nsexpat.c: Fixed all warnings by adding (int) and (XML_*) casts to
+    	function parameters and renaming TclExpatUnparsedDeclHandler to its new
+    	name, TclExpatUnparsedEntityDeclHandler.
+
+2002-02-24  Scott S. Goodwin  <scott@scottg.net>
+
+	* README: added.
+
+	* Makefile: modified to work with expat-1.95.2.
+
+	* Makefile: added check-env part that checks for the EXPAT var
+	definition.
+	
+2002-02-23  Scott S. Goodwin  <scott@scottg.net>
+
+	* nsexpat.c: changed include expat.h to xmlparse.h. There isn't
+	any expat.h. It compiles and loads without complaint!
+
+	* Makefile: brought into compliance with standard way of doing
+	AOLserver module makefiles.
+
+	* nsexpat: God, am I going to try and maintain this module too?
+
