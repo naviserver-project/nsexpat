@@ -7,7 +7,7 @@ ifndef EXPAT
 endif
 
 MOD      =  nsexpat.so
-OBJS     =  nsexpat.o tclexpat.o
+MODOBJS     =  nsexpat.o tclexpat.o
 HDRS     =
 MODLIBS  =  -L$(EXPAT)/lib -lexpat
 

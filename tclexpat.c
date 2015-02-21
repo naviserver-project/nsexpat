@@ -104,7 +104,7 @@ typedef enum {
 
 /* Counter to generate unique command names */
 static int uniqueCounter = 0;
-TCL_DECLARE_MUTEX(counterMutex);
+TCL_DECLARE_MUTEX(counterMutex)
 
 
 /*----------------------------------------------------------------------------

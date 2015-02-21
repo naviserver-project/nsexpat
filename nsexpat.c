@@ -42,7 +42,7 @@ int Ns_ModuleVersion = 1;
  *----------------------------------------------------------------------------
  */
 
-int Tclexpat_Init(Tcl_Interp * interp, void *context)
+int Tclexpat_Init(Tcl_Interp * interp, const void *context)
 {
     Tcl_CreateObjCommand(interp, "expat", TclExpatObjCmd, NULL, NULL);
     return TCL_OK;
